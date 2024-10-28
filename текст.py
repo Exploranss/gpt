@@ -21,13 +21,13 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Токен вашего Telegram-бота
-bot = telebot.TeleBot("7766574233:AAGmft91MSwXpubvTfAFhaVZFWGRPbYRMdU")
+bot = telebot.TeleBot("")
 
 # API ключ для OpenAI
-openai_api_key = "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"
+openai_api_key = ""
 
 # API ключ для Prodia
-prodia_api_key = "97df967b-62e0-42ed-a232-72bd5ae7e3c9"
+prodia_api_key = ""
 
 # URL для запроса к OpenAI
 openai_url = "https://openrouter.ai/api/v1/chat/completions"
